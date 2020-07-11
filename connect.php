@@ -1,14 +1,10 @@
 <?php
 
-// $host="127.0.0.1";
-// $user="root";
-// $pass="root";
-// $db="db667088276";
 
-$host="db5000274950.hosting-data.io";
-$user="dbu448476";
-$pass="M3d1t3rr@n30";
-$db="dbs268356";
+$host="localhost";
+$user="root";
+$pass="root";
+$db="inventari";
 
 $mysqli = mysqli_connect($host, $user, $pass, $db);
 mysqli_set_charset( $mysqli, 'utf8');
